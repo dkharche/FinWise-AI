@@ -1,0 +1,111 @@
+# Core Python Dependencies
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# LLM and GenAI
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-openai==0.0.2
+langchain-google-genai==0.0.5
+langchain-anthropic==0.0.1
+langgraph==0.0.20
+llama-index==0.9.30
+openai==1.6.1
+anthropic==0.8.1
+
+# Vector Databases
+chromadb==0.4.22
+weaviate-client==3.26.0
+faiss-cpu==1.7.4
+
+# Document Processing
+PyPDF2==3.0.1
+pypdf==3.17.4
+pdfplumber==0.10.3
+pytesseract==0.3.10
+Pillow==10.1.0
+python-docx==1.1.0
+pandas==2.1.4
+numpy==1.26.2
+
+# Traditional ML
+scikit-learn==1.3.2
+xgboost==2.0.3
+lightgbm==4.1.0
+statsmodels==0.14.1
+scipy==1.11.4
+
+# Deep Learning
+torch==2.1.2
+torchvision==0.16.2
+transformers==4.36.2
+sentence-transformers==2.2.2
+peft==0.7.1
+accelerate==0.25.0
+
+# Computer Vision
+opencv-python==4.8.1.78
+
+# NLP
+spacy==3.7.2
+nltk==3.8.1
+
+# MLOps
+mlflow==2.9.2
+wandb==0.16.1
+dvc==3.36.1
+
+# Model Explainability
+shap==0.44.0
+fairlearn==0.10.0
+
+# API and Backend
+fastapi==0.108.0
+uvicorn[standard]==0.25.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+redis==5.0.1
+
+# Monitoring
+prometheus-client==0.19.0
+psutil==5.9.6
+
+# Frontend/UI
+streamlit==1.29.0
+gradio==4.11.0
+plotly==5.18.0
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx==0.25.2
+
+# Security
+presidio-analyzer==2.2.33
+presidio-anonymizer==2.2.33
+cryptography==41.0.7
+
+# Utilities
+requests==2.31.0
+tqdm==4.66.1
+click==8.1.7
+pyyaml==6.0.1
+jsonschema==4.20.0
+
+# Cloud SDKs
+boto3==1.34.10
+google-cloud-storage==2.14.0
+google-cloud-aiplatform==1.38.1
+
+# Synthetic Data Generation
+faker==22.0.0
+reportlab==4.0.7
+PyMuPDF==1.23.8
